@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nad:item/dreamium"
+    "layer0": "nad:item/raw_dreamium"
   }
 }

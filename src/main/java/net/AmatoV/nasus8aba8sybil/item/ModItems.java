@@ -14,6 +14,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> DREAMIUM = ITEMS.register("dreamium",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_DREAMIUM = ITEMS.register("raw_dreamium",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
